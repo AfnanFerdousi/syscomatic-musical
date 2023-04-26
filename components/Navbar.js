@@ -74,7 +74,7 @@ const Navbar = () => {
       <div
         className={`${
           showMenu ? 'block' : 'hidden'
-        } md:hidden absolute top-20 right-0 bg-[#1D1D1D] py-2 px-4 w-[90%] z-10`}>
+        } md:hidden absolute top-20 right-0 bg-[#1D1D1D] py-2 px-4 w-[80%] z-10`}>
         {navitems.map((item) => (
           <span
             key={item.label}
@@ -91,7 +91,9 @@ const Navbar = () => {
             )}
           </span>
         ))}
+        <div className='py-4'>
         <GradientBorderBtn btnText='Sign In/Sign Up' />
+        </div>
       </div>
       <div className="lg:md:block hidden" >
       <GradientBorderBtn btnText='Sign In/Sign Up' />
