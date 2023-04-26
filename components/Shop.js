@@ -40,7 +40,7 @@ const Shop = () => {
 
             <div className='grid grid-cols-3 gap-x-8 mt-24 mb-8'>
                 {songs.map((song) => (
-                    <SongCard song={song} />
+                    <SongCard key={song?.genre} song={song} />
                 ))}
 
             </div>

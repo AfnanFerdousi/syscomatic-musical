@@ -26,7 +26,7 @@ const CreateMusic = () => {
 
             <div className='grid grid-cols-3 gap-x-8 mt-28'>
                 {actions.map((action) => (
-                    <ActionCards action={action} />
+                    <ActionCards key={action.title} action={action} />
                 ))}
             </div>
         </div>
