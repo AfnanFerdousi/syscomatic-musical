@@ -12,6 +12,7 @@ const Banner = () => {
             <div className='circle'></div>
             <Navbar />
             <div className='px-20 pt-16 flex justify-between'>
+                {/* Banner text part */}
                <div>
                <span className='text-[3.5rem] font-bold leading-[4rem]'>The one tool you <br /> need to <span className=' bg-gradient-to-b from-teal-300 to-purple-600 text-transparent bg-clip-text'>make</span><br /> any demo</span>
                 <p className='text-[16px] text-[#989898] mt-8'>Upload your song idea, license a voice and <br/>
@@ -22,8 +23,8 @@ const Banner = () => {
                 <LinearGradBtn text="Create music"/>
                </div>
                </div>
-
                
+               {/* Banners */}
                <div className='flex items-center gap-x-6'>
                 <Image
                 src={banner1}
