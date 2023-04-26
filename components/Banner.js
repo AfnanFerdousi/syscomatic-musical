@@ -19,7 +19,7 @@ const Banner = () => {
 
                <div className='flex items-center gap-x-6 mt-12'>
                <GradientBorderBtn btnText="Try for free"/>
-                <LinearGradBtn btnText="Create music"/>
+                <LinearGradBtn text="Create music"/>
                </div>
                </div>
 
