@@ -42,11 +42,7 @@ body {
   top: 0;
   right: 0;
 }
-
- /* .circle {
-  border-radius: 50%;
-  background: radial-gradient(77.73% 77.73% at 98.52% 96.25%, rgb(139, 35, 109) 0%, rgba(95, 49, 196, 0.29) 50.52%, rgba(92, 214, 214, 0) 100%), radial-gradient(141.73% 105.23% at 50% -7.16%, rgb(16, 55, 65) 0%, rgba(30, 65, 118, 0) 50.73%, rgba(45, 32, 126, 0) 100%), radial-gradient(112.27% 48.54% at 1.59% 50%, rgba(143, 36, 120, 0.5) 0%, rgba(147, 37, 129, 0.094) 53.91%, rgba(73, 18, 73, 0) 100%), linear-gradient(153.07deg, rgb(50, 40, 159) 6.37%, rgba(102, 75, 0, 0) 83.82%);
-  background-blend-mode: normal, normal, normal, normal, normal, normal;
-  height: 440px;
-  width: 440px;
-} */
+.border-gradient-t-blue-to-purple {
+  border-image: linear-gradient(to top, #2df1e6, #a660c3);
+  border-image-slice: 1;
+}
