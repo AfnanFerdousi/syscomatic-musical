@@ -20,13 +20,13 @@ const CreateMusic = () => {
         }
     ]
     return (
-        <div className='px-20 pt-16 text-center'>
+        <div className='px-20 pt-32 text-center'>
             <h2 className='text-[40px] font-bold text-[#fff] mb-4'>Create Music</h2>
-            <p className='text-[16px] text-[#989898]'>Upload your song idea, license any voice in our catalog and let a<br/> professional perform your next hit.</p>
+            <p className='text-[16px] text-[#989898]'>Upload your song idea, license any voice in our catalog and let a<br /> professional perform your next hit.</p>
 
             <div className='grid grid-cols-3 gap-x-8 mt-28'>
                 {actions.map((action) => (
-                        <ActionCards action={action}/>                    
+                    <ActionCards action={action} />
                 ))}
             </div>
         </div>
