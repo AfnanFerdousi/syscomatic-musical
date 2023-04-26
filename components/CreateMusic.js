@@ -20,11 +20,11 @@ const CreateMusic = () => {
         }
     ]
     return (
-        <div className='px-20 pt-32 text-center'>
-            <h2 className='text-[40px] font-bold text-[#fff] mb-4'>Create Music</h2>
+        <div className='lg:md:px-20 px-10 lg:md:pt-16 pt-8 text-center'>
+            <h2 className='lg:md:text-[40px] text-[2.5rem] font-bold text-[#fff] mb-4'>Create Music</h2>
             <p className='text-[16px] text-[#989898]'>Upload your song idea, license any voice in our catalog and let a<br /> professional perform your next hit.</p>
 
-            <div className='grid grid-cols-3 gap-x-8 mt-28'>
+            <div className='grid lg:md:grid-cols-3 gap-x-8 lg:md:gap-y-0 gap-y-20 mt-28'>
                 {actions.map((action) => (
                     <ActionCards key={action.title} action={action} />
                 ))}

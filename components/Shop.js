@@ -34,11 +34,11 @@ const Shop = () => {
         },
     ]
     return (
-        <div className='px-20 pt-32 text-center'>
-            <h2 className='text-[40px] font-bold text-[#fff] mb-4'>Shop</h2>
+        <div className='lg:md:px-20 px-10  pt-8 lg:md:pt-32 text-center'>
+            <h2 className='lg:md:text-[40px] text-[2.5rem] font-bold text-[#fff] mb-4'>Shop</h2>
             <p className='text-[16px] text-[#989898]'>Upload your song idea, license any voice in our catalog and let a<br /> professional perform your next hit.</p>
 
-            <div className='grid grid-cols-3 gap-x-8 mt-24 mb-8'>
+            <div className='grid lg:md:grid-cols-3 gap-x-8 lg:md:gap-y-0 gap-y-8 mt-24 mb-8'>
                 {songs.map((song) => (
                     <SongCard key={song?.genre} song={song} />
                 ))}

@@ -11,10 +11,10 @@ const Banner = () => {
         <div className=''>
             <div className='circle'></div>
             <Navbar />
-            <div className='px-20 pt-16 flex justify-between'>
+            <div className='lg:md:px-20 px-10 lg:md:pt-16 pt-8 flex  justify-between '>
                 {/* Banner text part */}
                <div>
-               <span className='text-[3.5rem] font-bold leading-[4rem]'>The one tool you <br /> need to <span className=' bg-gradient-to-b from-teal-300 to-purple-600 text-transparent bg-clip-text'>make</span><br /> any demo</span>
+               <span className='lg:md:text-[3.5rem] text-[2.5rem] font-bold lg:md:leading-[4rem] leading-[3rem]'>The one tool you <br /> need to <span className=' bg-gradient-to-b from-teal-300 to-purple-600 text-transparent bg-clip-text'>make</span><br /> any demo</span>
                 <p className='text-[16px] text-[#989898] mt-8'>Upload your song idea, license a voice and <br/>
                 let our AI turn it into a hit</p>
 
@@ -25,7 +25,8 @@ const Banner = () => {
                </div>
                
                {/* Banners */}
-               <div className='flex items-center gap-x-6'>
+               <div className='lg:md:block hidden'>
+               <div className='flex items-center gap-x-6 '>
                 <Image
                 src={banner1}
                 alt="banner1"
@@ -35,6 +36,7 @@ const Banner = () => {
                 src={banner2}
                 alt="banner2"
                 />
+               </div>
                </div>
             </div>
 
